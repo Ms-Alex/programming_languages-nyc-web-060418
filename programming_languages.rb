@@ -9,7 +9,7 @@ def reformat_languages(languages)
     info.each do |lang, category_type|
       binding.pry
       category_type.each do |type, type_str|
-        new_hash[info]
+        new_hash = info
         binding.pry
       end
     end
