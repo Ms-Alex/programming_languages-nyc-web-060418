@@ -6,7 +6,7 @@ def reformat_languages(languages)
   
   languages.each do |style, info|
     new_hash = info
-    new_hash.merge({style: [style]})
+    new_hash.merge({ :style => [style]})
     binding.pry
   end  
   
