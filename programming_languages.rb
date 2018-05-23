@@ -6,12 +6,10 @@ def reformat_languages(languages)
   
   languages.each do |style, info|
     info.each do |lang, category_type|
-      category_type.each do |type|
-        new_hash[lang] = type
-      #binding.pry
+      category_type.each { |type|
+        new_hash[lang] = type }
     end
-    #binding.pry
   end
-  #binding.pry
+
   new_hash
 end
