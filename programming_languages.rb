@@ -7,14 +7,14 @@ def reformat_languages(languages)
   languages.each do |style, info|
     new_hash = info
     new_hash.merge({style: [style]})
+    binding.pry
   end  
   
   new_hash.each do |lang, info|
     new_hash[]
-      binding.pry
+      
       category_type.each do |type, type_str|
         
-        binding.pry
       end
     end
   end
