@@ -9,7 +9,7 @@ def reformat_languages(languages)
       new_hash[lang] = category_type
       #binding.pry
     end
-    binding.pry
+    #binding.pry
   end
   binding.pry
 end
