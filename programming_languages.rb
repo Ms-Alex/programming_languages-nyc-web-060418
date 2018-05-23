@@ -7,9 +7,7 @@ def reformat_languages(languages)
   languages.each do |style, info|
     info.each do |lang, category_type|
       category_type.each do |type, type_str|
-        
         new_hash[lang][type] = type_str
-        new_hash[lang] << new_hash[lang]["style".to_sym] = style
         binding.pry
       end
     end
