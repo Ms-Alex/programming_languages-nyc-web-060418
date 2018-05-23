@@ -10,17 +10,8 @@ def reformat_languages(languages)
       data.merge({ "style".to_sym => [style] })
       new_hash = info
       #new_hash[info].merge({ :style => [style]})
-    binding.pry
+    #binding.pry
   end  
-  
-  new_hash.each do |lang, info|
-    new_hash[]
-      
-      category_type.each do |type, type_str|
-        
-      end
-    end
-  end
 
   return new_hash
 end
