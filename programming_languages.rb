@@ -7,6 +7,7 @@ def reformat_languages(languages)
   languages.each do |style, info|
     info.each do |lang, data|
       new_hash[lang] = data.merge({ "style".to_sym => [style] })
+    end
   end  
 
   return new_hash
