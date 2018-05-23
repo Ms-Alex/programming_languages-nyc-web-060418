@@ -5,11 +5,11 @@ def reformat_languages(languages)
   new_hash = {}
   
   languages.each do |style, info|
-    binding.pry
+    new_hash = info
     info.each do |lang, category_type|
       binding.pry
       category_type.each do |type, type_str|
-        new_hash = info
+        
         binding.pry
       end
     end
