@@ -10,7 +10,7 @@ def reformat_languages(languages)
       data.merge({ "style".to_sym => [style] })
       new_hash = info
       #new_hash[info].merge({ :style => [style]})
-    #binding.pry
+    binding.pry
   end  
 
   return new_hash
